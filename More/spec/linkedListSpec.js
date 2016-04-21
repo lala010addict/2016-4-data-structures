@@ -1,4 +1,4 @@
-describe('linkedList', function() {
+xdescribe('linkedList', function() {
   var linkedList;
 
   beforeEach(function() {

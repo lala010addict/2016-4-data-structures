@@ -1,4 +1,4 @@
-describe('graph', function() {
+xdescribe('graph', function() {
   var graph;
 
   beforeEach(function() {
