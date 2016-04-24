@@ -1,4 +1,4 @@
-xdescribe('binarySearchTree', function() {
+describe('binarySearchTree', function() {
   var binarySearchTree;
 
   beforeEach(function() {

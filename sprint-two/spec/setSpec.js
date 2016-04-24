@@ -1,4 +1,4 @@
-xdescribe('set', function() {
+describe('set', function() {
   var set;
 
   beforeEach(function() {
