@@ -10,9 +10,9 @@ var Graph = function(){
 // ------------------------
 // Add a node to the graph, passing in the node's value.
 Graph.prototype.addNode = function(node){
-	if(node){
-		this.storage[node]
-	}
+  if (node) {
+    this.storage[node] = this.storage[node] || { edges: [] };
+  }
 };
 
 // ------------------------
@@ -33,6 +33,7 @@ Graph.prototype.hasEdge = function(fromNode, toNode){
 // ------------------------
 // Connects two nodes in a graph by adding an edge between them.
 Graph.prototype.addEdge = function(fromNode, toNode){
+	
 };
 
 // ------------------------
